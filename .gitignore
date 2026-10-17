@@ -1,0 +1,14 @@
+@"
+# Generated simulation executables
+sim/*_test
+sim/*_test.exe
+sim/*.out
+
+# Generated waveform files
+sim/*.vcd
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
